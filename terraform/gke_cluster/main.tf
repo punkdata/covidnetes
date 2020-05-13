@@ -3,7 +3,7 @@ terraform {
   backend "remote" {
     organization = "datapunks"
     workspaces {
-      name = "nodejs-circleci-gke"
+      name = "forked-covidnetes-gke"
     }
   }
 }
